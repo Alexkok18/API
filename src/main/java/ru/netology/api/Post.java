@@ -1,3 +1,5 @@
+package ru.netology.api;
+
 public class Post {
     public FormDate birthday;
     public String surname;
@@ -5,6 +7,6 @@ public class Post {
     public String patronymic;
     public String passport;
     public String phone;
-    public String subscription;
+    public boolean subscription;
 
 }
